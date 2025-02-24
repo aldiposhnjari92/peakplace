@@ -21,10 +21,10 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="en" suppressHydrationWarning={true}>
-        <body className={`${inter.variable}`}>
+        <body className={`${inter.variable} min-h-screen`}>
         <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="light"
             enableSystem
             disableTransitionOnChange
           >
